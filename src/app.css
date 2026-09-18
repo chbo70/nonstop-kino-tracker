@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@source "./lib/state.svelte.ts"; /* Forces Tailwind to read the themes */
+
+@theme {
+    --font-sans: "Quicksand", sans-serif;
+}
