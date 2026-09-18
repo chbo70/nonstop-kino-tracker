@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Make request to Supabase API
         env:
-          SUPABASE_URL: ${{ secrets.PUBLIC_SUPABASE_URL }}
+          SUPABASE_URL: 'https://jwfwabsegxgujtczllna.supabase.co'
           SUPABASE_KEY: ${{ secrets.PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
         run: |
           echo "Checking URL: $SUPABASE_URL"
